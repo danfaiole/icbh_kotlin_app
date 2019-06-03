@@ -24,12 +24,5 @@
                 tools:text="Título do vídeo - Pregação sobre alguma coisa"
                 app:layout_constraintEnd_toEndOf="@+id/rv_videos_image"
                 app:layout_constraintStart_toStartOf="@+id/rv_videos_image" android:textSize="18sp" android:textStyle="bold"/>
-        <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/rv_videos_description"
-                app:layout_constraintTop_toBottomOf="@+id/rv_videos_title" app:layout_constraintEnd_toEndOf="@+id/rv_videos_title"
-                app:layout_constraintStart_toStartOf="@+id/rv_videos_title" android:layout_marginTop="8dp"
-                tools:text="Descrição do vídeo"/>
     </android.support.constraint.ConstraintLayout>
 </android.support.v7.widget.CardView>
